@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{1f03e15d-513d-4f6e-a77a-8bb75176890f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{de6bcee9-14aa-40e8-802c-ce044eebb556}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2c30ab11-0b1f-4ee5-abce-aaf970d81e7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\entities">
+      <UniqueIdentifier>{acc7b3ae-3b1b-4f75-a35c-fead2c6ca5cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\entities">
+      <UniqueIdentifier>{b7d3954b-4141-4fef-a4a5-b9f544c50e16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\patterns">
+      <UniqueIdentifier>{4bb484ac-b778-45ba-b202-82797e53367f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\patterns">
+      <UniqueIdentifier>{436f1003-d08a-414e-bdc7-21c890703559}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tiles">
+      <UniqueIdentifier>{9bb3317d-864a-4b5c-8a8b-2bbbe3acf61f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tiles">
+      <UniqueIdentifier>{9b4868f1-bec7-4710-aa39-fc35cb0c8b8e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\entities\entity.h">
+      <Filter>Header Files\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\entities\monster.h">
+      <Filter>Header Files\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\entities\player.h">
+      <Filter>Header Files\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\structures.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\patterns\patrol.h">
+      <Filter>Header Files\patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="src\patterns\pattern.h">
+      <Filter>Header Files\patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="src\patterns\roam.h">
+      <Filter>Header Files\patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="src\functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tiles\room.h">
+      <Filter>Header Files\tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tiles\tile.h">
+      <Filter>Header Files\tiles</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entities\monster.cpp">
+      <Filter>Source Files\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entities\player.cpp">
+      <Filter>Source Files\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\patterns\patrol.cpp">
+      <Filter>Source Files\patterns</Filter>
+    </ClCompile>
+    <ClCompile Include="src\patterns\roam.cpp">
+      <Filter>Source Files\patterns</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tiles\room.cpp">
+      <Filter>Source Files\tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tiles\tile.cpp">
+      <Filter>Source Files\tiles</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="res\map2.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="res\map1.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
